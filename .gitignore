@@ -1,0 +1,66 @@
+# .NET
+bin/
+obj/
+out/
+
+# User-specific files
+.vs/
+.vscode/
+.idea/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer logs
+*.cab
+*.log
+
+# ASP.NET Core config
+appsettings*.json
+
+# Microsoft user-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# JetBrains Rider
+.idea/
+
+# VS Code settings folder
+.vscode/
+
+# User-specific files
+*.swp
+*~.nib
+
+# MacOS Finder directory
+.DS_Store
+
+# Windows Installer files
+Thumbs.db
+ehthumbs.db
+
+# npm packages (if applicable)
+node_modules/
+
+# ASP.NET Core Build files
+wwwroot/
+
+# Published output
+publish/
+
+# ASP.NET temporary files
+$tf/
+
+# .NET Core global tools
+.dotnet/
