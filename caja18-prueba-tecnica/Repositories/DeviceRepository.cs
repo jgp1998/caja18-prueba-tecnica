@@ -1,6 +1,7 @@
 ﻿using caja18_prueba_tecnica.Models;
 using caja18_prueba_tecnica.Repositories.Interfaces;
-using System.Text.Json;
+using caja18_prueba_tecnica.Utils; // 👈 nuevo using
+using System.Net.Http;
 
 namespace caja18_prueba_tecnica.Repositories
 {
@@ -17,23 +18,14 @@ namespace caja18_prueba_tecnica.Repositories
         {
             var response = await _httpClient.GetAsync("objects");
             response.EnsureSuccessStatusCode();
-            var json = await response.Content.ReadAsStringAsync();
-            return JsonSerializer.Deserialize<IEnumerable<Device>>(json, new JsonSerializerOptions
-            {
-                PropertyNameCaseInsensitive = true
-            })!;
+            return (await JsonUtils.DeserializeAsync<IEnumerable<Device>>(response.Content))!;
         }
 
         public async Task<Device?> GetByIdAsync(string id)
         {
             var response = await _httpClient.GetAsync($"/objects/{id}");
             if (!response.IsSuccessStatusCode) return null;
-            var json = await response.Content.ReadAsStringAsync();
-            return JsonSerializer.Deserialize<Device>(json, new JsonSerializerOptions
-            {
-                PropertyNameCaseInsensitive = true
-            });
+            return await JsonUtils.DeserializeAsync<Device>(response.Content);
         }
     }
-
 }
