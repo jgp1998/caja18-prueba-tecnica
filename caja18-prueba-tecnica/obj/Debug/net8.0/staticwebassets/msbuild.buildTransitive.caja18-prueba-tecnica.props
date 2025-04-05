@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\caja18-prueba-tecnica.props" />
+</Project>

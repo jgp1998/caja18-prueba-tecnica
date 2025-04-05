@@ -1,0 +1,19 @@
+﻿@model Device
+
+<h2>Detalle del Dispositivo</h2>
+<p><strong>Nombre:</strong> @Model.Name</p>
+
+@if (Model.Data != null)
+{
+    <h4>Especificaciones del dispositivo:</h4>
+    <ul>
+        @foreach (var pair in Model.Data)
+        {
+            <li><strong>@pair.Key:</strong> @pair.Value</li>
+        }
+    </ul>
+}
+else
+{
+    <p>No hay datos disponibles.</p>
+}

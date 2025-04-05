@@ -1,0 +1,17 @@
+﻿@model IEnumerable<Device>
+
+<h2>Lista de Dispositivos</h2>
+<table class="table">
+    <thead>
+        <tr><th>Nombre</th><th>Acción</th></tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td><a asp-action="Details" asp-route-id="@item.Id">Ver Detalle</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
