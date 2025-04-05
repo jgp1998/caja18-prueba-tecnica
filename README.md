@@ -2,6 +2,7 @@
 Este proyecto consiste en desarrollar una aplicación utilizando ASP.NET Core MVC. Se hace uso de arquitectura limpia y modular intentando respetar buenas practicas de codigo limpio para que el proyecto sea fácil de mantener y escalable.
 
 ## Aplicación desplegada
+https://pruebatecnica-caja18-g5b3audee9ggexeg.canadacentral-01.azurewebsites.net/
 
 ## Toma de decisiones
 Se desarrollo en Visual Studio 2022 con ASP .NET core 8.0 MVC.
