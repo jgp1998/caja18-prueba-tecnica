@@ -3,13 +3,19 @@ using caja18_prueba_tecnica.Repositories;
 using caja18_prueba_tecnica.Services.Interfaces;
 using caja18_prueba_tecnica.Services;
 
+
 var builder = WebApplication.CreateBuilder(args);
 var baseUrl = builder.Configuration["ApiSettings:BaseUrl"];
+var logger = builder.Services.BuildServiceProvider().GetRequiredService<ILogger<DeviceRepository>>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 if (string.IsNullOrEmpty(baseUrl))
+{
+     logger.LogError("La URL de la API no está configurada correctamente en 'appsettings.json'.");
     throw new InvalidOperationException("API BaseUrl is missing in configuration.");
+}
+
 builder.Services.AddHttpClient<IDeviceRepository, DeviceRepository>(client =>
 {
     client.BaseAddress = new Uri(baseUrl);
