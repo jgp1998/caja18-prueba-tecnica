@@ -19,24 +19,32 @@ namespace caja18_prueba_tecnica.Repositories
             try
             {
                 var response = await _httpClient.GetAsync("objects");
-                response.EnsureSuccessStatusCode();
+
+                 if (response.StatusCode == System.Net.HttpStatusCode.TooManyRequests || response.StatusCode == System.Net.HttpStatusCode.MethodNotAllowed)
+                {
+                    _logger.LogWarning("Límite de solicitudes alcanzado. No se pueden obtener los dispositivos.");
+                return new List<Device>();
+                }
+
+               response.EnsureSuccessStatusCode();
 
                 var devices = await JsonUtils.DeserializeAsync<IEnumerable<Device>>(response.Content);
-    
-                return devices ?? new List<Device>();
+
+                return devices ?? new List<Device>(); 
             }
             catch (HttpRequestException ex)
             {
                 _logger.LogError(ex, "Error al realizar la solicitud HTTP para obtener los dispositivos.");
-                throw new Exception("Error al obtener dispositivos desde la API externa.");
+               
+                return new List<Device>();
             }
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Error inesperado al obtener los dispositivos.");
-                throw new Exception("Error inesperado al obtener dispositivos.");
+             
+                return new List<Device>();
             }
         }
-
 
         public async Task<Device?> GetByIdAsync(string id)
         {
@@ -45,19 +53,20 @@ namespace caja18_prueba_tecnica.Repositories
                 var response = await _httpClient.GetAsync($"objects/{id}");
                 if (!response.IsSuccessStatusCode)
                 {
-                    return null;
+                    _logger.LogWarning($"Dispositivo con ID {id} no encontrado o no accesible.");
+                    return null; 
                 }
                 return await JsonUtils.DeserializeAsync<Device>(response.Content);
             }
             catch (HttpRequestException ex)
             {
                 _logger.LogError(ex, $"Error al realizar la solicitud HTTP para obtener el dispositivo con ID: {id}");
-                throw new Exception("Error al obtener el dispositivo desde la API externa.");
+                return null; 
             }
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Error inesperado al obtener el dispositivo.");
-                throw new Exception("Error inesperado al obtener el dispositivo.");
+                return null; 
             }
         }
     }

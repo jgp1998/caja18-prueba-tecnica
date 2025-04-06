@@ -1,6 +1,5 @@
 ﻿namespace caja18_prueba_tecnica.Models
 {
-    // Models/Device.cs
     public class Device
     {
         public string Id { get; set; }
