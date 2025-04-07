@@ -7,5 +7,4 @@ namespace caja18_prueba_tecnica.Services.Interfaces
         Task<IEnumerable<Device>> GetDevicesAsync();
         Task<Device?> GetDeviceByIdAsync(string id);
     }
-
 }

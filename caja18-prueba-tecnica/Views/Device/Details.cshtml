@@ -1,157 +1,161 @@
 ﻿@* @model Device *@
-@model DeviceDetailsViewModel
+@model caja18_prueba_tecnica.Models.DeviceDetailsViewModel
 @using System.Globalization
 @{
     ViewData["Title"] = "Detalles del Dispositivo";
 }
 
-<div class="container mt-5">
-    <div class="container py-5">
-        <a href="@Url.Action("Index", "Device")" class="btn btn-outline-secondary mb-4">
-            <i class="bi bi-arrow-left me-2"></i> Volver
-        </a>
-    <div class="card max-w-3xl mx-auto">
-        <div class="card-header">
-            <h5 class="card-title text-2xl">@Model.Name</h5>
-            <p class="text-muted">ID: @Model.Id</p>
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-12">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a asp-action="Index">Dispositivos</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">@Model.Name</li>
+                </ol>
+            </nav>
         </div>
+    </div>
 
-        <div class="card-body">
-            <div class="row g-3">
-          
-
-                    @if (!string.IsNullOrWhiteSpace(Model.Color))
-                    {
+    <div class="row">
+        <div class="col-12">
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h2 class="card-title mb-0">@Model.Name</h2>
+                </div>
+                <div class="card-body">
+                    <div class="row">
                         <div class="col-md-6">
-                            <div class="d-flex align-items-center p-3 border rounded-lg">
-                                <i class="bi bi-palette h-8 w-8 text-muted"></i>
-                                <div class="ms-3">
-                                    <p class="text-sm text-muted">Color</p>
-                                    <p class="font-medium">@Model.Color</p>
-                                </div>
-                            </div>
-                        </div>
-                    }
+                            <h3 class="h5 mb-3">Información Principal</h3>
+                            <dl class="row">
+                                <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Id)</dt>
+                                <dd class="col-sm-8">@Model.Id</dd>
 
-                    @if (!string.IsNullOrWhiteSpace(Model.Capacity))
-                    {
+                                <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Name)</dt>
+                                <dd class="col-sm-8">@Model.Name</dd>
+
+                                @if (!string.IsNullOrEmpty(Model.Color))
+                                {
+                                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Color)</dt>
+                                    <dd class="col-sm-8">
+                                        <span class="badge bg-primary">@Model.Color</span>
+                                    </dd>
+                                }
+
+                                @if (!string.IsNullOrEmpty(Model.Capacity))
+                                {
+                                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Capacity)</dt>
+                                    <dd class="col-sm-8">@Model.Capacity</dd>
+                                }
+
+                                <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Price)</dt>
+                                <dd class="col-sm-8">
+                                    @if (string.IsNullOrEmpty(Model.Price) || Model.Price == "0")
+                                    {
+                                        <span class="text-muted">Precio No Disponible</span>
+                                    }
+                                    else
+                                    {
+                                        <span>$@Model.Price</span>
+                                    }
+                                </dd>
+
+                            </dl>
+                        </div>
+
                         <div class="col-md-6">
-                            <div class="d-flex align-items-center p-3 border rounded-lg">
-                                <i class="bi bi-box h-8 w-8 text-muted"></i>
-                                <div class="ms-3">
-                                    <p class="text-sm text-muted">Capacidad</p>
-                                    <p class="font-medium">@Model.Capacity</p>
-                                </div>
-                            </div>
-                        </div>
-                    }
+                            <h3 class="h5 mb-3">Especificaciones Técnicas</h3>
+                            <dl class="row">
+                                @if (!string.IsNullOrEmpty(Model.Year))
+                                {
+                                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Year)</dt>
+                                    <dd class="col-sm-8">@Model.Year</dd>
+                                }
 
-                    @if (!string.IsNullOrWhiteSpace(Model.Price) && decimal.TryParse(Model.Price, out var parsedPrice))
+                                @if (!string.IsNullOrEmpty(Model.Generation))
+                                {
+                                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Generation)</dt>
+                                    <dd class="col-sm-8">@Model.Generation</dd>
+                                }
+
+                                @if (!string.IsNullOrEmpty(Model.CpuModel))
+                                {
+                                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.CpuModel)</dt>
+                                    <dd class="col-sm-8">@Model.CpuModel</dd>
+                                }
+
+                                @if (!string.IsNullOrEmpty(Model.HardDiskSize))
+                                {
+                                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.HardDiskSize)</dt>
+                                    <dd class="col-sm-8">@Model.HardDiskSize</dd>
+                                }
+
+                                @if (!string.IsNullOrEmpty(Model.ScreenSize))
+                                {
+                                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.ScreenSize)</dt>
+                                    <dd class="col-sm-8">@Model.ScreenSize</dd>
+                                }
+
+                                @if (!string.IsNullOrEmpty(Model.CaseSize))
+                                {
+                                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.CaseSize)</dt>
+                                    <dd class="col-sm-8">@Model.CaseSize</dd>
+                                }
+
+                                @if (!string.IsNullOrEmpty(Model.StrapColour))
+                                {
+                                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.StrapColour)</dt>
+                                    <dd class="col-sm-8">@Model.StrapColour</dd>
+                                }
+                            </dl>
+                        </div>
+                    </div>
+
+                    @if (!string.IsNullOrEmpty(Model.Description))
                     {
-                        <div class="col-md-6">
-                            <div class="d-flex align-items-center p-3 border rounded-lg">
-                                <i class="bi bi-currency-dollar h-8 w-8 text-success"></i>
-                                <div class="ms-3">
-                                    <p class="text-sm text-muted">Precio</p>
-                                    <p class="font-medium">@parsedPrice.ToString("C", CultureInfo.CreateSpecificCulture("en-US"))</p>
-                                </div>
+                        <div class="row mt-4">
+                            <div class="col-12">
+                                <h3 class="h5 mb-3">Descripción</h3>
+                                <p class="text-muted">@Model.Description</p>
                             </div>
                         </div>
                     }
 
-                    @if (!string.IsNullOrWhiteSpace(Model.Generation))
-                    {
-                        <div class="col-md-6">
-                            <div class="d-flex align-items-center p-3 border rounded-lg">
-                                <i class="bi bi-cpu h-8 w-8 text-muted"></i>
-                                <div class="ms-3">
-                                    <p class="text-sm text-muted">Generación</p>
-                                    <p class="font-medium">@Model.Generation</p>
-                                </div>
-                            </div>
-                        </div>
-                    }
-
-                    @if (!string.IsNullOrWhiteSpace(Model.CpuModel))
-                    {
-                        <div class="col-md-6">
-                            <div class="d-flex align-items-center p-3 border rounded-lg">
-                                <i class="bi bi-chip h-8 w-8 text-muted"></i>
-                                <div class="ms-3">
-                                    <p class="text-sm text-muted">CPU</p>
-                                    <p class="font-medium">@Model.CpuModel</p>
-                                </div>
-                            </div>
-                        </div>
-                    }
-
-                    @if (!string.IsNullOrWhiteSpace(Model.HardDiskSize))
-                    {
-                        <div class="col-md-6">
-                            <div class="d-flex align-items-center p-3 border rounded-lg">
-                                <i class="bi bi-hdd h-8 w-8 text-muted"></i>
-                                <div class="ms-3">
-                                    <p class="text-sm text-muted">Disco duro</p>
-                                    <p class="font-medium">@Model.HardDiskSize</p>
-                                </div>
-                            </div>
-                        </div>
-                    }
-
-                    @if (!string.IsNullOrWhiteSpace(Model.StrapColour))
-                    {
-                        <div class="col-md-6">
-                            <div class="d-flex align-items-center p-3 border rounded-lg">
-                                <i class="bi bi-brush h-8 w-8 text-muted"></i>
-                                <div class="ms-3">
-                                    <p class="text-sm text-muted">Color correa</p>
-                                    <p class="font-medium">@Model.StrapColour</p>
-                                </div>
-                            </div>
-                        </div>
-                    }
-
-                    @if (!string.IsNullOrWhiteSpace(Model.CaseSize))
-                    {
-                        <div class="col-md-6">
-                            <div class="d-flex align-items-center p-3 border rounded-lg">
-                                <i class="bi bi-fullscreen h-8 w-8 text-muted"></i>
-                                <div class="ms-3">
-                                    <p class="text-sm text-muted">Tamaño carcasa</p>
-                                    <p class="font-medium">@Model.CaseSize</p>
-                                </div>
-                            </div>
-                        </div>
-                    }
-
-                    @if (!string.IsNullOrWhiteSpace(Model.Description))
-                    {
-                        <div class="col-md-12">
-                            <div class="p-3 border rounded-lg">
-                                <h5 class="text-muted">Descripción</h5>
-                                <p>@Model.Description</p>
-                            </div>
-                        </div>
-                    }
-
-                    @if (!string.IsNullOrWhiteSpace(Model.ScreenSize))
-                    {
-                        <div class="col-md-6">
-                            <div class="d-flex align-items-center p-3 border rounded-lg">
-                                <i class="bi bi-display h-8 w-8 text-muted"></i>
-                                <div class="ms-3">
-                                    <p class="text-sm text-muted">Tamaño pantalla</p>
-                                    <p class="font-medium">@Model.ScreenSize</p>
-                                </div>
-                            </div>
-                        </div>
-                    }
-
-
-
-                
+                </div>
+                <div class="card-footer bg-transparent">
+                    <a asp-action="Index" class="btn btn-secondary">
+                        <i class="fas fa-arrow-left"></i> Volver a la lista
+                    </a>
+                </div>
             </div>
         </div>
     </div>
 </div>
-</div>
+
+@section Styles {
+    <style>
+        .card {
+            border: none;
+            border-radius: 10px;
+        }
+        
+        .card-header {
+            border-radius: 10px 10px 0 0 !important;
+        }
+        
+        dt {
+            font-weight: 600;
+            color: #6c757d;
+        }
+        
+        .badge {
+            font-size: 0.9rem;
+            padding: 0.5em 0.75em;
+        }
+        
+        .table th {
+            color: #6c757d;
+            font-weight: 600;
+        }
+    </style>
+}

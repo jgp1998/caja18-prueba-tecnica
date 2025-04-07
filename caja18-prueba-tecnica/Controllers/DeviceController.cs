@@ -2,6 +2,8 @@
 using caja18_prueba_tecnica.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using System.Text.Json;
+
 namespace caja18_prueba_tecnica.Controllers
 {
     public class DeviceController : Controller
@@ -26,7 +28,8 @@ namespace caja18_prueba_tecnica.Controllers
                     return View("Error", new ErrorViewModel { Message = "No se encontraron dispositivos." });
                 }
 
-                return View(devices);
+                var deviceViewModels = devices.Select(DeviceDetailsViewModel.FromDevice).ToList();
+                return View(deviceViewModels);
             }
             catch (Services.ServiceException ex)
             {
@@ -59,22 +62,10 @@ namespace caja18_prueba_tecnica.Controllers
                     return NotFound();
                 }
 
-                var deviceDetails = new DeviceDetailsViewModel
-                {
-                    Id = device.Id,
-                    Name = device.Name,
-                    Color = device.Data?.GetValueOrDefault("color")?.ToString(),
-                    Capacity = device.Data?.GetValueOrDefault("capacity")?.ToString(),
-                    Price = device.Data?.GetValueOrDefault("price")?.ToString(),
-                    Generation = device.Data?.GetValueOrDefault("generation")?.ToString(),
-                    CpuModel = device.Data?.GetValueOrDefault("CPU model")?.ToString(),
-                    HardDiskSize = device.Data?.GetValueOrDefault("Hard disk size")?.ToString(),
-                    StrapColour = device.Data?.GetValueOrDefault("Strap Colour")?.ToString(),
-                    CaseSize = device.Data?.GetValueOrDefault("Case Size")?.ToString(),
-                    Description = device.Data?.GetValueOrDefault("Description")?.ToString(),
-                    ScreenSize = device.Data?.GetValueOrDefault("Screen Size")?.ToString(),
-                };
+                _logger.LogInformation($"Device data received: {JsonSerializer.Serialize(device)}");
 
+                var deviceDetails = DeviceDetailsViewModel.FromDevice(device);
+                Console.WriteLine($"Device Price: {device.Price}");
                 return View(deviceDetails);
             }
             catch (Services.ServiceException ex)

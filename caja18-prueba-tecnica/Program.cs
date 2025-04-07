@@ -23,7 +23,9 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddHttpClient<IDeviceRepository, DeviceRepository>(client =>
 {
     client.BaseAddress = new Uri(baseUrl);
+    client.Timeout = TimeSpan.FromSeconds(30);
 });
+
 builder.Services.AddScoped<IDeviceService, DeviceService>();
 
 var app = builder.Build();
