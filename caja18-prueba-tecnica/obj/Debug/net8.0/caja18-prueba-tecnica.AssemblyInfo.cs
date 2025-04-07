@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("caja18-prueba-tecnica")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7328fdc75aa7857ca48e2c139860a073a6983b3a")]
 [assembly: System.Reflection.AssemblyProductAttribute("caja18-prueba-tecnica")]
 [assembly: System.Reflection.AssemblyTitleAttribute("caja18-prueba-tecnica")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

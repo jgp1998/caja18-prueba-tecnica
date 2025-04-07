@@ -6,5 +6,6 @@ namespace caja18_prueba_tecnica.Repositories.Interfaces
     {
         Task<IEnumerable<Device>> GetAllAsync();
         Task<Device?> GetByIdAsync(string id);
+        Device MapToDevice(Dictionary<string, object> data);
     }
 }

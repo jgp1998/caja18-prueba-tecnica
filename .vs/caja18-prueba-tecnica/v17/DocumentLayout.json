@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "E:\\pruebas tecnicas\\caja18-prueba-tecnica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{519D857C-A370-4CF9-B178-16669A12862B}|caja18-prueba-tecnica\\caja18-prueba-tecnica.csproj|e:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{519D857C-A370-4CF9-B178-16669A12862B}|caja18-prueba-tecnica\\caja18-prueba-tecnica.csproj|solutionrelative:caja18-prueba-tecnica\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{519D857C-A370-4CF9-B178-16669A12862B}|caja18-prueba-tecnica\\caja18-prueba-tecnica.csproj|e:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\views\\device\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{519D857C-A370-4CF9-B178-16669A12862B}|caja18-prueba-tecnica\\caja18-prueba-tecnica.csproj|solutionrelative:caja18-prueba-tecnica\\views\\device\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{519D857C-A370-4CF9-B178-16669A12862B}|caja18-prueba-tecnica\\caja18-prueba-tecnica.csproj|e:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\views\\device\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{519D857C-A370-4CF9-B178-16669A12862B}|caja18-prueba-tecnica\\caja18-prueba-tecnica.csproj|solutionrelative:caja18-prueba-tecnica\\views\\device\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{519D857C-A370-4CF9-B178-16669A12862B}|caja18-prueba-tecnica\\caja18-prueba-tecnica.csproj|e:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{519D857C-A370-4CF9-B178-16669A12862B}|caja18-prueba-tecnica\\caja18-prueba-tecnica.csproj|solutionrelative:caja18-prueba-tecnica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{519D857C-A370-4CF9-B178-16669A12862B}|caja18-prueba-tecnica\\caja18-prueba-tecnica.csproj|e:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\repositories\\devicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{519D857C-A370-4CF9-B178-16669A12862B}|caja18-prueba-tecnica\\caja18-prueba-tecnica.csproj|solutionrelative:caja18-prueba-tecnica\\repositories\\devicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18_prueba-tecnica\\Models\\Device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:caja18_prueba-tecnica\\Models\\Device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{519D857C-A370-4CF9-B178-16669A12862B}|caja18-prueba-tecnica\\caja18-prueba-tecnica.csproj|e:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\controllers\\devicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,42 +13,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{519D857C-A370-4CF9-B178-16669A12862B}|caja18-prueba-tecnica\\caja18-prueba-tecnica.csproj|e:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{519D857C-A370-4CF9-B178-16669A12862B}|caja18-prueba-tecnica\\caja18-prueba-tecnica.csproj|solutionrelative:caja18-prueba-tecnica\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{519D857C-A370-4CF9-B178-16669A12862B}|caja18-prueba-tecnica\\caja18-prueba-tecnica.csproj|e:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{519D857C-A370-4CF9-B178-16669A12862B}|caja18-prueba-tecnica\\caja18-prueba-tecnica.csproj|solutionrelative:caja18-prueba-tecnica\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{519D857C-A370-4CF9-B178-16669A12862B}|caja18-prueba-tecnica\\caja18-prueba-tecnica.csproj|e:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{519D857C-A370-4CF9-B178-16669A12862B}|caja18-prueba-tecnica\\caja18-prueba-tecnica.csproj|solutionrelative:caja18-prueba-tecnica\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{519D857C-A370-4CF9-B178-16669A12862B}|caja18-prueba-tecnica\\caja18-prueba-tecnica.csproj|e:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\services\\interfaces\\ideviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{519D857C-A370-4CF9-B178-16669A12862B}|caja18-prueba-tecnica\\caja18-prueba-tecnica.csproj|solutionrelative:caja18-prueba-tecnica\\services\\interfaces\\ideviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{519D857C-A370-4CF9-B178-16669A12862B}|caja18-prueba-tecnica\\caja18-prueba-tecnica.csproj|e:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\repositories\\interfaces\\idevicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{519D857C-A370-4CF9-B178-16669A12862B}|caja18-prueba-tecnica\\caja18-prueba-tecnica.csproj|solutionrelative:caja18-prueba-tecnica\\repositories\\interfaces\\idevicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{519D857C-A370-4CF9-B178-16669A12862B}|caja18-prueba-tecnica\\caja18-prueba-tecnica.csproj|e:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{519D857C-A370-4CF9-B178-16669A12862B}|caja18-prueba-tecnica\\caja18-prueba-tecnica.csproj|solutionrelative:caja18-prueba-tecnica\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{519D857C-A370-4CF9-B178-16669A12862B}|caja18-prueba-tecnica\\caja18-prueba-tecnica.csproj|e:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{519D857C-A370-4CF9-B178-16669A12862B}|caja18-prueba-tecnica\\caja18-prueba-tecnica.csproj|solutionrelative:caja18-prueba-tecnica\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{519D857C-A370-4CF9-B178-16669A12862B}|caja18-prueba-tecnica\\caja18-prueba-tecnica.csproj|e:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\services\\deviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{519D857C-A370-4CF9-B178-16669A12862B}|caja18-prueba-tecnica\\caja18-prueba-tecnica.csproj|solutionrelative:caja18-prueba-tecnica\\services\\deviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{519D857C-A370-4CF9-B178-16669A12862B}|caja18-prueba-tecnica\\caja18-prueba-tecnica.csproj|e:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{519D857C-A370-4CF9-B178-16669A12862B}|caja18-prueba-tecnica\\caja18-prueba-tecnica.csproj|solutionrelative:caja18-prueba-tecnica\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{519D857C-A370-4CF9-B178-16669A12862B}|caja18-prueba-tecnica\\caja18-prueba-tecnica.csproj|e:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\caja18-prueba-tecnica.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{519D857C-A370-4CF9-B178-16669A12862B}|caja18-prueba-tecnica\\caja18-prueba-tecnica.csproj|solutionrelative:caja18-prueba-tecnica\\caja18-prueba-tecnica.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -79,209 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "caja18-prueba-tecnica\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "caja18-prueba-tecnica\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-05T01:08:20.48Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "caja18-prueba-tecnica\\Views\\Home\\Index.cshtml",
-              "ToolTip": "E:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "caja18-prueba-tecnica\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-05T01:08:05.822Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\appsettings.json",
-              "RelativeDocumentMoniker": "caja18-prueba-tecnica\\appsettings.json",
-              "ToolTip": "E:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\appsettings.json",
-              "RelativeToolTip": "caja18-prueba-tecnica\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-05T01:02:04.518Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\Program.cs",
-              "RelativeDocumentMoniker": "caja18-prueba-tecnica\\Program.cs",
-              "ToolTip": "E:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\Program.cs",
-              "RelativeToolTip": "caja18-prueba-tecnica\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAVAAAAAAAAAA==",
+              "Title": "Device.cs",
+              "DocumentMoniker": "E:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18_prueba-tecnica\\Models\\Device.cs",
+              "RelativeDocumentMoniker": "caja18_prueba-tecnica\\Models\\Device.cs",
+              "ToolTip": "E:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18_prueba-tecnica\\Models\\Device.cs",
+              "RelativeToolTip": "caja18_prueba-tecnica\\Models\\Device.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAGcAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T00:59:24.374Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "E:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\Views\\Device\\Details.cshtml",
-              "RelativeDocumentMoniker": "caja18-prueba-tecnica\\Views\\Device\\Details.cshtml",
-              "ToolTip": "E:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\Views\\Device\\Details.cshtml",
-              "RelativeToolTip": "caja18-prueba-tecnica\\Views\\Device\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-05T00:59:09.747Z",
+              "WhenOpened": "2025-04-07T03:46:05.888Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\Views\\Device\\Index.cshtml",
-              "RelativeDocumentMoniker": "caja18-prueba-tecnica\\Views\\Device\\Index.cshtml",
-              "ToolTip": "E:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\Views\\Device\\Index.cshtml",
-              "RelativeToolTip": "caja18-prueba-tecnica\\Views\\Device\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-05T00:58:43.005Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IDeviceService.cs",
-              "DocumentMoniker": "E:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\Services\\Interfaces\\IDeviceService.cs",
-              "RelativeDocumentMoniker": "caja18-prueba-tecnica\\Services\\Interfaces\\IDeviceService.cs",
-              "ToolTip": "E:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\Services\\Interfaces\\IDeviceService.cs",
-              "RelativeToolTip": "caja18-prueba-tecnica\\Services\\Interfaces\\IDeviceService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T00:56:11.326Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "HomeController.cs",
               "DocumentMoniker": "E:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "caja18-prueba-tecnica\\Controllers\\HomeController.cs",
               "ToolTip": "E:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\Controllers\\HomeController.cs",
               "RelativeToolTip": "caja18-prueba-tecnica\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T00:56:56.232Z",
+              "WhenOpened": "2025-04-07T03:43:24.229Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "DeviceController.cs",
               "DocumentMoniker": "E:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\Controllers\\DeviceController.cs",
               "RelativeDocumentMoniker": "caja18-prueba-tecnica\\Controllers\\DeviceController.cs",
               "ToolTip": "E:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\Controllers\\DeviceController.cs",
               "RelativeToolTip": "caja18-prueba-tecnica\\Controllers\\DeviceController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAUwBYAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAgwFsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T00:52:41.475Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DeviceRepository.cs",
-              "DocumentMoniker": "E:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\Repositories\\DeviceRepository.cs",
-              "RelativeDocumentMoniker": "caja18-prueba-tecnica\\Repositories\\DeviceRepository.cs",
-              "ToolTip": "E:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\Repositories\\DeviceRepository.cs",
-              "RelativeToolTip": "caja18-prueba-tecnica\\Repositories\\DeviceRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T00:55:49.357Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "E:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "caja18-prueba-tecnica\\Views\\_ViewStart.cshtml",
-              "ToolTip": "E:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "caja18-prueba-tecnica\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-05T01:02:16.713Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DeviceService.cs",
-              "DocumentMoniker": "E:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\Services\\DeviceService.cs",
-              "RelativeDocumentMoniker": "caja18-prueba-tecnica\\Services\\DeviceService.cs",
-              "ToolTip": "E:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\Services\\DeviceService.cs",
-              "RelativeToolTip": "caja18-prueba-tecnica\\Services\\DeviceService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T00:56:38.798Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "E:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "caja18-prueba-tecnica\\Views\\_ViewImports.cshtml",
-              "ToolTip": "E:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "caja18-prueba-tecnica\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-05T01:02:17.593Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IDeviceRepository.cs",
-              "DocumentMoniker": "E:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\Repositories\\Interfaces\\IDeviceRepository.cs",
-              "RelativeDocumentMoniker": "caja18-prueba-tecnica\\Repositories\\Interfaces\\IDeviceRepository.cs",
-              "ToolTip": "E:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\Repositories\\Interfaces\\IDeviceRepository.cs",
-              "RelativeToolTip": "caja18-prueba-tecnica\\Repositories\\Interfaces\\IDeviceRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T00:55:22.365Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Device.cs",
-              "DocumentMoniker": "E:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\Models\\Device.cs",
-              "RelativeDocumentMoniker": "caja18-prueba-tecnica\\Models\\Device.cs",
-              "ToolTip": "E:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\Models\\Device.cs",
-              "RelativeToolTip": "caja18-prueba-tecnica\\Models\\Device.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T00:54:32.075Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "caja18-prueba-tecnica",
-              "DocumentMoniker": "E:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\caja18-prueba-tecnica.csproj",
-              "RelativeDocumentMoniker": "caja18-prueba-tecnica\\caja18-prueba-tecnica.csproj",
-              "ToolTip": "E:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\caja18-prueba-tecnica.csproj",
-              "RelativeToolTip": "caja18-prueba-tecnica\\caja18-prueba-tecnica.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-05T00:52:56.893Z",
+              "WhenOpened": "2025-04-07T03:42:55.992Z",
               "EditorCaption": ""
             }
           ]
