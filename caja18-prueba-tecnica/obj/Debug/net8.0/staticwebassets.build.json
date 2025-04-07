@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rPHwvOiHhMZrM1kdPauSlZmX4rxzUJ2t7QEZMd9T/u4=",
+  "Hash": "Q5HsgvSw4gY+h1AdbFbsfLLiBvxpqPVh0Ho6GR7eRtA=",
   "Source": "caja18-prueba-tecnica",
   "BasePath": "_content/caja18-prueba-tecnica",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c2tiyv64ts",
-      "Integrity": "pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=",
+      "Fingerprint": "4dc9oqp7kd",
+      "Integrity": "KEm52dTn4r2IjTLSwirEfoEJmsxesDFqE6qg041O9R8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1343,7 +1343,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 21:36:44 GMT"
+          "Value": "Sun, 06 Apr 2025 04:34:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1380,7 +1380,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 21:36:44 GMT"
+          "Value": "Sun, 06 Apr 2025 04:34:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1425,7 +1425,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 21:36:44 GMT"
+          "Value": "Sun, 06 Apr 2025 04:34:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1470,7 +1470,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 21:36:44 GMT"
+          "Value": "Sun, 06 Apr 2025 04:34:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1485,7 +1485,7 @@
       ]
     },
     {
-      "Route": "css/site.c2tiyv64ts.css",
+      "Route": "css/site.4dc9oqp7kd.css",
       "AssetFile": "E:\\pruebas tecnicas\\caja18-prueba-tecnica\\caja18-prueba-tecnica\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1495,7 +1495,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "1233"
         },
         {
           "Name": "Content-Type",
@@ -1503,11 +1503,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"KEm52dTn4r2IjTLSwirEfoEJmsxesDFqE6qg041O9R8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 21:35:03 GMT"
+          "Value": "Sun, 06 Apr 2025 18:04:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1517,7 +1517,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
+          "Value": "4dc9oqp7kd"
         },
         {
           "Name": "label",
@@ -1525,7 +1525,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-KEm52dTn4r2IjTLSwirEfoEJmsxesDFqE6qg041O9R8="
         }
       ]
     },
@@ -1540,7 +1540,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "1233"
         },
         {
           "Name": "Content-Type",
@@ -1548,11 +1548,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"KEm52dTn4r2IjTLSwirEfoEJmsxesDFqE6qg041O9R8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 21:35:03 GMT"
+          "Value": "Sun, 06 Apr 2025 18:04:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1562,7 +1562,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-KEm52dTn4r2IjTLSwirEfoEJmsxesDFqE6qg041O9R8="
         }
       ]
     },

@@ -32,3 +32,14 @@ E:\pruebas tecnicas\caja18-prueba-tecnica\caja18-prueba-tecnica\obj\Debug\net8.0
 E:\pruebas tecnicas\caja18-prueba-tecnica\caja18-prueba-tecnica\obj\Debug\net8.0\caja18-prueba-tecnica.pdb
 E:\pruebas tecnicas\caja18-prueba-tecnica\caja18-prueba-tecnica\obj\Debug\net8.0\caja18-prueba-tecnica.genruntimeconfig.cache
 E:\pruebas tecnicas\caja18-prueba-tecnica\caja18-prueba-tecnica\obj\Debug\net8.0\ref\caja18-prueba-tecnica.dll
+E:\pruebas tecnicas\caja18-prueba-tecnica\caja18-prueba-tecnica\obj\Debug\net8.0\caja18-prueba-tecnica.sourcelink.json
+E:\pruebas tecnicas\caja18-prueba-tecnica\caja18-prueba-tecnica\obj\Debug\net8.0\caja18-prueba-tecnica.csproj.AssemblyReference.cache
+E:\pruebas tecnicas\caja18-prueba-tecnica\caja18-prueba-tecnica\obj\Debug\net8.0\caja18-prueba-tecnica.MvcApplicationPartsAssemblyInfo.cs
+E:\pruebas tecnicas\caja18-prueba-tecnica\caja18-prueba-tecnica\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+E:\pruebas tecnicas\caja18-prueba-tecnica\caja18-prueba-tecnica\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\pruebas tecnicas\caja18-prueba-tecnica\caja18-prueba-tecnica\bin\Debug\net8.0\Polly.dll
+E:\pruebas tecnicas\caja18-prueba-tecnica\caja18-prueba-tecnica\bin\Debug\net8.0\Polly.Core.dll
+E:\pruebas tecnicas\caja18-prueba-tecnica\caja18-prueba-tecnica\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\pruebas tecnicas\caja18-prueba-tecnica\caja18-prueba-tecnica\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\pruebas tecnicas\caja18-prueba-tecnica\caja18-prueba-tecnica\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\pruebas tecnicas\caja18-prueba-tecnica\caja18-prueba-tecnica\obj\Debug\net8.0\caja18-p.4B611FD9.Up2Date
